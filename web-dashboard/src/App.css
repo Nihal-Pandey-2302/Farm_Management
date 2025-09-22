@@ -1,0 +1,58 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.App-header {
+  background-color: var(--header-bg);
+  padding: 1rem 2rem;
+  color: var(--text-primary);
+  border-bottom: 1px solid var(--border-color);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.App-header h1 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.App-header h2 {
+  font-size: 1rem;
+  font-weight: 300;
+  color: var(--text-secondary);
+}
+
+/* THIS IS THE KEY FIX FOR CENTERING THE DASHBOARD */
+main {
+  width: 100%;
+  max-width: 1400px;
+  /* Constrain the width */
+  margin: 2rem auto;
+  /* Center the block on the page */
+  padding: 0 1rem;
+  flex-grow: 1;
+}
+
+.App-nav {
+  margin-top: 1rem;
+}
+
+.App-nav button {
+  background-color: #61dafb;
+  border: none;
+  color: #282c34;
+  padding: 10px 20px;
+  margin: 0 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.App-nav button:hover {
+  background-color: #ffffff;
+}

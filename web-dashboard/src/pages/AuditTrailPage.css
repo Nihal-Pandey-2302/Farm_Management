@@ -1,0 +1,52 @@
+.audit-trail-container {
+    padding: 1rem 2rem;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    margin: 2rem;
+}
+
+.audit-trail-container h2 {
+    color: #333;
+}
+
+.log-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.log-table th,
+.log-table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.log-table th {
+    background-color: #4CAF50;
+    /* Green header */
+    color: white;
+}
+
+.log-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.log-table tr:hover {
+    background-color: #ddd;
+}
+
+.hash-cell {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.9em;
+}
+
+.hash-cell a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.hash-cell a:hover {
+    text-decoration: underline;
+}

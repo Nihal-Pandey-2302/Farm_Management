@@ -1,0 +1,21 @@
+.dashboard-container h2 {
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+    text-align: left;
+    color: var(--text-primary);
+}
+
+.dashboard-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 1.5rem;
+}
+
+.loading,
+.error {
+    font-size: 1.5rem;
+    color: #666;
+    margin-top: 5rem;
+    text-align: center;
+}
