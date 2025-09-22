@@ -31,8 +31,8 @@ The application is built on a modern, distributed architecture:
 - **Blockchain:** A local Hardhat network runs a Solidity smart contract to provide an immutable log of all critical treatment events.
 - **Clients:** A Flutter-based mobile app for field users and a React-based web dashboard for administrative users.
 
-![Flowchart of the System Architecture](placeholder_for_flowchart_image.png)
-*(**Note:** You should add the flowchart diagram you created for the PPT here and name it `flowchart.png` or similar.)*
+![Flowchart of the System Architecture](https://raw.githubusercontent.com/Nihal-Pandey-2302/Farm_Management/refs/heads/main/Flowchart.jpeg)
+
 
 ---
 
